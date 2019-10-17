@@ -59,7 +59,6 @@ $book_id = -1;
 
 $books = explode( "\n", `ls ./ori` );
 $book_cnt = count( $books );
-var_dump( $books );
 
 for( $o = 0; $o < $book_cnt; $o ++ ) {
 	$book_id = substr( $books[ $o ], 4 );
